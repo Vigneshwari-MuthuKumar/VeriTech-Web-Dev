@@ -1,0 +1,85 @@
+body {
+font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+background-color: white;
+}
+
+.container {
+max-width: 1000px;
+margin: 100px auto;
+background-color: #FFFFFF;
+border: 1px solid;
+padding: 0px 80px 50px 80px;
+}
+div #outside{
+    position: relative;
+    left: 95%;
+}
+.header {
+text-align: center;
+border-bottom-style: dotted;
+border-bottom-color: purple;
+}
+.header h1 {
+width: 290px;
+border-radius: 10px;
+border: 2px solid purple;
+background-color: #9B59B6;
+color: #FFFFFF;
+padding: 10px;
+margin: 10px 300px;
+font-size: 20px;
+}
+.header p{
+font-family: Roboto;
+font-size: 20px;
+}
+.team-section {
+margin-top: 40px;
+text-align: center;
+}
+
+.team-group {
+margin-bottom: 40px;
+}
+.team-group h3 {
+background-color: #9B59B6;
+color: #FFFFFF;
+padding: 8px;
+margin: 40px 270px;
+border-radius: 10px;
+}
+.founder-members{
+    display: flex;
+}
+.devImgHeader img{
+    float: left;
+}
+
+.team-members {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+.member {
+text-align: center;
+margin: 35px;
+}
+.member img {
+border-radius: 50%;
+object-fit: cover;
+width: 130px;
+height: 130px;
+}
+.member p:first-of-type {
+font-weight: bold;
+margin-bottom: 5px;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+.team-members {
+flex-direction: column;
+align-items: center;
+}
+}
